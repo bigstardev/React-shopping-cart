@@ -1,0 +1,14 @@
+.Cart {
+  padding: 15px;
+  max-width: 500px;
+  @media (max-width: 768px) {
+    max-width: 340px;
+    h4 {
+      font-size: 25px;
+    }
+  }
+  font-family: Arial, Helvetica, sans-serif;
+  h2 {
+    text-align: center;
+  }
+}

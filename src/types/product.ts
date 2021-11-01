@@ -1,0 +1,31 @@
+export interface Product {
+  brand: string;
+  category: string;
+  defaultTrackedItemSectionType: number;
+  deliverableNextDay: boolean;
+  description: string;
+  enabled: boolean;
+  imageUrl: string;
+  internalUnitMeasure: number;
+  internalUnitQuantity: number;
+  inventoryHeld: number;
+  inventoryOnHand: number;
+  isEssential: boolean;
+  isExplicitCaseQuantityRequired: boolean;
+  itemType: string;
+  name: string;
+  perHomeMaximum: number;
+  perishabilityDays: number;
+  price: number;
+  productId: {value: string};
+  productUrl: string;
+  stepSize: number;
+  storeSource: string;
+  subcategory: string;
+  subsubcategory: string;
+  subtitle: string;
+  unitType: string;
+  upcCode: string;
+  weeklyConsumptionQuantity: number;
+  amount: number;
+}

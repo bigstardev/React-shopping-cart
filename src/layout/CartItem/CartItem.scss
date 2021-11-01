@@ -1,0 +1,30 @@
+.CartItem {
+  display: flex;
+  border-bottom: 1px solid var(--color-blue-light);
+  padding: 20px;
+  @media (max-width: 500px) {
+    img {
+      display: none;
+    }
+    padding: 5px;
+  }
+  .information {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    button {
+      color: var(--color-blue-light);
+      font-size: 20px;
+      padding: 5px;
+    }
+  }
+  img {
+    max-width: 80px;
+    object-fit: cover;
+    margin-left: 40px;
+  }
+}

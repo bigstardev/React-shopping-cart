@@ -1,0 +1,38 @@
+.TopNav__wrapper {
+  padding: 0px 23px;
+  .TopNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 40%;
+
+      @media (max-width: 992px) {
+        width: 100%;
+        justify-content: none;
+      }
+    }
+    &__right {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 30%;
+      button {
+        background-color: var(--color-red);
+        color: var(--color-bg);
+      }
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+}
+.CartIcon {
+  position: fixed;
+  z-index: 100;
+  right: 20px;
+  top: 60px;
+}

@@ -1,0 +1,24 @@
+.Shop {
+  display: flex;
+  flex-direction: column;
+  h6 {
+    margin: 10px 30px;
+  }
+  &__filter-product {
+    div {
+      margin: 10px 30px;
+    }
+    button {
+      border-radius: 25px;
+      margin-right: 25px;
+      margin-top: 10px;
+      border-color: var(--color-pirmary-outline);
+      text-transform: none;
+    }
+    .filter-all {
+      border-radius: 50%;
+      border: 1px solid var(--color-pirmary-outline);
+      padding: 5px;
+    }
+  }
+}

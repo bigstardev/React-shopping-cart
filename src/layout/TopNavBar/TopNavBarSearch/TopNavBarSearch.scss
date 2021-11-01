@@ -1,0 +1,16 @@
+.TopNavBarSearch {
+  position: relative;
+  .MuiInputBase-root {
+    input {
+      border: 1px solid;
+      border-color: var(--color-pirmary-outline);
+      border-radius: 10px;
+      width: 30vw;
+    }
+  }
+  .MuiIconButton-root {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+  }
+}
